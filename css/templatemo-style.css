@@ -339,7 +339,7 @@ nav {
   height: 20%;
   border: solid slategray;
   background: linear-gradient(15deg, black, slategray, black, slategray);
-background-size: 100% 100%;
+background-size: 300% 100%;
 animation: gradient 5s ease-in-out infinite;
 }
 
