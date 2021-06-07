@@ -337,9 +337,10 @@ nav {
 .header{
   width: 100%;
   height: 20%;
-  background: linear-gradient(45deg, #2E3030, black, #2E3030, black);
-background-size: 400% 400%;
-animation: gradient 8s ease-in-out infinite;
+  border: solid slategray;
+  background: linear-gradient(15deg, black, slategray, black, slategray);
+background-size: 100% 100%;
+animation: gradient 5s ease-in-out infinite;
 }
 
 @keyframes gradient {
@@ -358,9 +359,9 @@ animation: gradient 8s ease-in-out infinite;
 
 .text-center2{
   width: 100%;
-  margin-top:30px;
+  margin-top:20px;
   font-family: 'Raleway', sans-serif;
-  letter-spacing: 0.6px;
+  letter-spacing: 2.0px;
   text-shadow: 9px 9px 9px;
   font-size: 45px;
   color: white;
