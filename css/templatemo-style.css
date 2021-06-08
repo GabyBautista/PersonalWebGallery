@@ -336,11 +336,11 @@ nav {
 
 .header{
   width: 100%;
-  height: 20%;
-  border: solid slategray;
-  background: linear-gradient(15deg, black, slategray, black, slategray);
+  height: 10%;
+  background: linear-gradient(40deg, white, black, black, white);
 background-size: 300% 100%;
-animation: gradient 5s ease-in-out infinite;
+animation: gradient 10s ease-in-out infinite;
+  filter: sepia (0.6);
 }
 
 @keyframes gradient {
@@ -359,7 +359,7 @@ animation: gradient 5s ease-in-out infinite;
 
 .text-center2{
   width: 100%;
-  margin-top:20px;
+  margin-top: 0px;
   font-family: 'Raleway', sans-serif;
   letter-spacing: 2.1px;
   text-shadow: 9px 9px 9px;
@@ -368,9 +368,11 @@ animation: gradient 5s ease-in-out infinite;
   text-align: center;
 }
 .text-center2:hover{
-  transform: scale(1.2);
-  transition: .9s ease-in-out;
-  cursor: grab;
+  transform: scale(1.1);
+}
+
+.text-center2 {
+  transition: .3s ease-in-out;
 
 }
 
@@ -792,4 +794,10 @@ footer a:hover {
     text-align: center;
   }
 
+}
+
+@media (max-width: 500px){
+  .text-center2{
+    font-size: 30px;
+  }
 }
