@@ -340,7 +340,7 @@ nav {
   background: linear-gradient(40deg, white, black, black, white);
 background-size: 300% 100%;
 animation: gradient 10s ease-in-out infinite;
-  filter: sepia (0.6);
+  filter: sepia(0.6);
 }
 
 @keyframes gradient {
