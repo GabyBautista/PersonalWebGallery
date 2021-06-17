@@ -347,7 +347,7 @@ nav {
   background: linear-gradient(40deg, white, black, black, white);
 background-size: 300% 100%;
 animation: gradient 10s ease-in-out infinite;
-  filter: sepia(0.6);
+  filter: sepia(0.4);
 }
 
 @keyframes gradient {
@@ -373,13 +373,20 @@ animation: gradient 10s ease-in-out infinite;
   font-size: 45px;
   color: white;
   text-align: center;
+  animation: text 3.5s ease-in-out infinite;
 }
-.text-center2:hover{
-  transform: scale(1.1);
-}
+@keyframes text {
+  0%{
+    transform: rotateX(180deg);
+  }
+  100%{
+    transform: perspective(180deg);
+  
+  }
+  0%{
+    transform: rotateX(360deg);
 
-.text-center2 {
-  transition: .3s ease-in-out;
+  }
 
 }
 
