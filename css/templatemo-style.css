@@ -335,8 +335,8 @@ nav {
 
 .inner h1, i{
   animation-name: fade;
-  animation-duration: 1.5s;
-  animation-timing-function:  ease-out  ;
+  animation-duration: 2.0s;
+  animation-timing-function:  ease-in-out;
 
 }
 
@@ -344,9 +344,11 @@ nav {
 
   0%   {margin-top: 500px;}
 
-      100% {margin-top: 20px;}
+      50% {margin-top: 20px;}
+      100%{
+        transform: skewX(180deg);
+      }
 }
-
 .scroll{
   border-radius: 50%;
 }
