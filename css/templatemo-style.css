@@ -58,8 +58,25 @@ body, html {
 
 .camera{
   width: 48px;
+  animation: cam 4s ease-in infinite;
+}
+@keyframes cam {
+  0% {
+    transform: rotate(0deg) scale(0.8);
 
-
+  }
+  25%{
+    transform: rotate(180deg) scale(1.0);
+}
+ 50%{
+   transform: rotate(360deg) scale(1.2);
+ }
+ 75%{
+   transform: rotate(180deg) scale(1.0);
+ }
+100%{
+  transform: rotate(0deg) scale(0.8);
+}
 
 }
 
@@ -381,6 +398,7 @@ animation: gradient 10s ease-in-out infinite;
   }
   100%{
     transform: perspective(180deg);
+    color: gold;
   
   }
   0%{
