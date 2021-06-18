@@ -426,7 +426,7 @@ animation: gradient 10s ease-in-out infinite;
 
 .portfolio-item .thumb {
   position: relative;
-  filter: sepia(0.8) saturate(1.5);
+  filter: sepia(0.6) saturate(1.2) contrast(1.1);
 
 
 }
