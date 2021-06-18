@@ -58,24 +58,24 @@ body, html {
 
 .camera{
   width: 48px;
-  animation: cam 4s ease-in infinite;
+  animation: cam 7s ease-in-out infinite;
 }
 @keyframes cam {
   0% {
-    transform: rotate(0deg) scale(0.8);
+    transform: rotate(0deg) scale(0.6);
 
   }
   25%{
-    transform: rotate(180deg) scale(1.0);
+    transform: rotate(180deg) scale(0.8);
 }
  50%{
    transform: rotate(360deg) scale(1.2);
  }
  75%{
-   transform: rotate(180deg) scale(1.0);
+   transform: rotate(180deg) scale(0.8);
  }
 100%{
-  transform: rotate(0deg) scale(0.8);
+  transform: rotate(0deg) scale(0.6);
 }
 
 }
