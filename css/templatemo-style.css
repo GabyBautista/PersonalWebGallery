@@ -685,6 +685,8 @@ animation: gradient 5s ease-in-out infinite;
   margin-bottom: 8%;
   color: white;
   font-family: "Raleway";
+  letter-spacing: 2px;
+  text-decoration: underline;
 }
 
 .contact-icons{
@@ -697,12 +699,25 @@ animation: gradient 5s ease-in-out infinite;
 
   width: 20%;
   margin: 25px;
+  animation: social 3s ease-in-out infinite;
 
 }
+@keyframes social{
+  0%{
+    margin-left: 500px;
+    transform: rotate(0deg);
+  }
+  100%{
+    margin-right: 0px;
+    transform: rotate(360deg);
+}
+
+}
+
 .contact-icons a{
   color: white;
   font-style: italic;
-  font-family: "Verdana";
+  font-family: "Raleway";
   letter-spacing: 2px;
   font-size: 18px;
 }
@@ -893,9 +908,13 @@ footer a:hover {
   }
   .contact-icons img{
     visibility: visible;
-    width: 40%;
+    width: 50%;
   }
   .contact{
     height: 50%;
+    background-position: top;
+  }
+  .contact-icons {
+    height: 100px;
   }
 }
