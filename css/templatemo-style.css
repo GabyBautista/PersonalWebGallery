@@ -667,6 +667,45 @@ animation: gradient 5s ease-in-out infinite;
     opacity: 0;
   }
 }
+.contact{
+  width: 100%;
+  height: 80%;
+  background: url(https://wallpaperstock.net/wallpapers/thumbs1/44408wide.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  filter: sepia(0.3);
+
+}
+
+.text-center3{
+  width: 100%;
+  text-align: center;
+  margin-top: 75px;
+  margin-bottom: 8%;
+  color: white;
+  font-family: "Raleway"
+}
+
+.contact-icons{
+  background: rgba(52, 52, 66, 0.8);
+
+  border-radius: 25px 25px 25px 25px;
+}
+
+.contact-icons img{
+
+  width: 20%;
+  margin: 25px;
+
+}
+.contact-icons a{
+  color: white;
+  font-style: italic;
+  font-family: "Verdana";
+  letter-spacing: 2px;
+  font-size: 18px;
+}
 
 
 
@@ -845,4 +884,18 @@ footer a:hover {
     font-size: 13px;
     letter-spacing: 0.1px;
 }
+}
+
+@media (max-width: 500px){
+  .contact-icons a{
+    visibility: hidden;
+
+  }
+  .contact-icons img{
+    visibility: visible;
+    width: 40%;
+  }
+  .contact{
+    height: 50%;
+  }
 }
