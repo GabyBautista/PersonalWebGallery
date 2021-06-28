@@ -1,5 +1,7 @@
 
-
+*{
+scroll-behavior:  smooth;
+}
 
 body {
   font-family: 'Kanit', sans-serif;
