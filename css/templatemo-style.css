@@ -690,7 +690,7 @@ animation: gradient 5s ease-in-out infinite;
   color: white;
   font-family: "Raleway";
   letter-spacing: 2px;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .contact-icons{
