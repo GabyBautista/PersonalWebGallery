@@ -431,9 +431,11 @@ animation: gradient 5s ease-in-out infinite;
 
 .portfolio-item .thumb {
   position: relative;
-  filter: sepia(0.6) saturate(1.2) contrast(1.1);
-
-
+  filter: sepia(0.9) saturate(1.0) contrast(1.1);
+}
+.portfolio-item .thumb:hover{
+  filter: none;
+  transition: 1s ease-in-out;
 }
 
 
