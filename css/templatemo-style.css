@@ -678,7 +678,7 @@ animation: gradient 5s ease-in-out infinite;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  filter: sepia(0.3);
+  filter: sepia(0.4);
 
 }
 
@@ -689,12 +689,13 @@ animation: gradient 5s ease-in-out infinite;
   margin-bottom: 8%;
   color: white;
   font-family: "Raleway";
-  letter-spacing: 2px;
+  letter-spacing: 5px;
   text-decoration: none;
+  font-weight:600;
 }
 
 .contact-icons{
-  background: rgba(52, 52, 66, 0.8);
+  background: rgba(52, 52, 66, 0.7);
 
   border-radius: 25px 25px 25px 25px;
 }
