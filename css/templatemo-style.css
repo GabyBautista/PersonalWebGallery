@@ -431,11 +431,11 @@ animation: gradient 5s ease-in-out infinite;
 
 .portfolio-item .thumb {
   position: relative;
-  filter: sepia(0.9) saturate(1.0) contrast(1.1);
+  filter: sepia(0.9) saturate(1.1) contrast(1.1);
 }
 .portfolio-item .thumb:hover{
   filter: none;
-  transition: 1s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 
@@ -703,7 +703,9 @@ animation: gradient 5s ease-in-out infinite;
 
   width: 20%;
   margin: 25px;
-  animation: social 3s ease-in-out infinite;
+  animation: social 3s ease-in-out 3;
+  animation: social2 4s ease-in-out infinite;
+  animation-delay: 10s;
 
 }
 @keyframes social{
@@ -716,6 +718,15 @@ animation: gradient 5s ease-in-out infinite;
     transform: rotate(360deg);
 }
 
+}
+
+@keyframes social2{
+  0%{
+   transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+}
 }
 
 .contact-icons a{
