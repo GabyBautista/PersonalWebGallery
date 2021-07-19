@@ -703,9 +703,10 @@ animation: gradient 5s ease-in-out infinite;
 
   width: 20%;
   margin: 25px;
-  animation: social 3s ease-in-out 3;
-  animation: social2 4s ease-in-out infinite;
-  animation-delay: 10s;
+  animation-name: social, social2;
+  animation-duration: 3s, 3s;
+  animation-iteration-count: 3, infinite;
+  animation-delay: 0s, 10s;
 
 }
 @keyframes social{
