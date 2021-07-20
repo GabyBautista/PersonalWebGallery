@@ -103,7 +103,7 @@ nav .logo em {
 }
 
 nav {
-  background: rgba(45, 45, 55, 0.6);
+  background: rgba(45, 45, 55, 0.3);
   height: 85px;
   position: fixed;
   width: 100%;
@@ -175,7 +175,7 @@ nav {
 /* Menu */
 
 .overlay-menu {
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(0, 0, 0, 0.55);
   color: #ffffff;
   position: fixed;
   z-index: 100;
@@ -189,7 +189,7 @@ nav {
   opacity: 0;
   text-align: center;
   transform: translateY(-100%);
-  transition: all 0.8s;
+  transition: all 0.9s;
 }
 
 .overlay-menu.open {
@@ -239,7 +239,7 @@ nav {
 .overlay-menu ul li a {
   font-size: 24px;
   font-weight: 300;
-  color: #fff;
+  color: orange;
   text-decoration: none;
   transition: all 0.5s;
 }
@@ -278,12 +278,12 @@ nav {
   transform: translate(-50%, -50%);
   min-width: 100%;
   min-height: 100%;
-  filter:  saturate(1.1) contrast(1.2) sepia(0.5);
+  filter:  saturate(1.7) contrast(1) sepia(0.6);
 }
 
 #video-container .video-overlay {
   z-index: 9999;
-  background: rgba(0,0,0,0.1);
+  background: rgba(0,0,0,0.2);
   width: 100%;
 }
 
