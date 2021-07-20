@@ -426,7 +426,7 @@ animation: gradient 5s ease-in-out infinite;
 .portfolio-item img {
   width: 100%;
   overflow: hidden;
-  border-radius: 12px 12px 12px 12px;
+ 
 }
 
 .portfolio-item .thumb {
@@ -451,14 +451,15 @@ animation: gradient 5s ease-in-out infinite;
 .full-screen-portfolio .portfolio-item h1 {
   position: relative;
   font-size: 23px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: #fff;
   display: inline-block;
   padding-left: 20px;
   line-height: 20px;
   transform: translateY(10px);
   transition: .5s ease-in-out;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.8px;
+  font-family: "Raleway";
  }
 
  .full-screen-portfolio .portfolio-item em {
