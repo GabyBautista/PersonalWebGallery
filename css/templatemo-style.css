@@ -61,7 +61,7 @@ body, html {
 
 .camera{
   width: 48px;
-  animation: cam 7s ease-in-out infinite;
+  animation: cam 8s ease-in-out 3;
 }
 @keyframes cam {
   0% {
@@ -396,7 +396,7 @@ animation: gradient 5s ease-in-out infinite;
   font-size: 45px;
   color: white;
   text-align: center;
-  animation: text 3.5s ease-in-out infinite;
+  animation: text 4.5s ease-in-out 5;
 }
 @keyframes text {
   0%{
