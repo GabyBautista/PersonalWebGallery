@@ -382,10 +382,10 @@ nav {
 
 .portfolio-item .thumb {
   position: relative;
-  filter: sepia(0.9) saturate(1.1) contrast(1.1);
+  filter: saturate(0.9) contrast(1.2);
 }
 .portfolio-item .thumb:hover{
-  filter: none;
+  filter: sepia(1);
   transition: 0.5s ease-in-out;
 }
 
