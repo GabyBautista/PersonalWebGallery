@@ -342,16 +342,16 @@ nav {
 
 .inner h1, i{
   animation-name: fade;
-  animation-duration: 1.8s;
+  animation-duration: 1.2s;
   animation-timing-function:  ease-in-out;
 
 }
 
 @keyframes fade {
 
-  0%   {margin-top: 500px;}
+  0%{margin-top: 400px;}
 
-       100%{margin-top: 20px;}
+  100%{margin-top: 20px;}
      
 }
 
