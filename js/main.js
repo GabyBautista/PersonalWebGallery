@@ -51,7 +51,7 @@ jQuery(document).ready(function($) {
             
             // the magic - scroll to section
             "scrollTop": $('#'+scrollTo).offset().top
-          }, 1000 );
+          }, 100 );
           return false;
           
         })
