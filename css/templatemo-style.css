@@ -340,7 +340,20 @@ nav {
 
 .scroll{
   border-radius: 50%;
+  animation: down 2s infinite ease-in-out;
 }
+@keyframes down {
+  0%,100%{
+    transform: scale(0.9); }
+    40%{
+      transform: scale(1.2);
+    }
+    70%{
+      transform: scale(0.9);
+    }
+
+}
+
 
 .inner h1, i{
   animation-name: fade;
