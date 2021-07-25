@@ -342,7 +342,7 @@ nav {
 
 .inner h1, i{
   animation-name: fade;
-  animation-duration: 2.5s;
+  animation-duration: 1.8s;
   animation-timing-function:  ease-in-out;
 
 }
@@ -362,55 +362,6 @@ nav {
   filter: opacity(0.5);
 }
 
-.header{
-  width: 100%;
-  height: 10%;
-  background: linear-gradient(90deg, sienna, black, black, sienna);
-background-size: 300% 100%;
-animation: gradient 5s ease-in-out infinite;
-  filter: sepia(0.3);
-}
-
-@keyframes gradient {
-0% {
-  background-position: 0% 50%;
-}
-50% {
-  background-position: 100% 50%;
-}
-100% {
-  background-position: 0% 50%;
-}
-}
-
-
-
-.text-center2{
-  width: 100%;
-  margin-top: 0px;
-  font-family: 'Raleway', sans-serif;
-  letter-spacing: 2.1px;
-  text-shadow: 9px 9px 9px;
-  font-size: 45px;
-  color: white;
-  text-align: center;
-  animation: text 4.5s ease-in-out 5;
-}
-@keyframes text {
-  0%{
-    transform: rotateX(180deg);
-  }
-  100%{
-    transform: perspective(180deg);
-    color: gold;
-  
-  }
-  0%{
-    transform: rotateX(360deg);
-
-  }
-
-}
 
 
 
