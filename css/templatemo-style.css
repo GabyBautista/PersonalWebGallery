@@ -103,7 +103,7 @@ nav .logo em {
 }
 
 nav {
-  background: rgba(45, 35, 15, 0.3);
+  background: rgba(45, 35, 15, 0.1);
   height: 85px;
   position: fixed;
   width: 100%;
@@ -278,7 +278,7 @@ nav {
   transform: translate(-50%, -50%);
   min-width: 100%;
   min-height: 100%;
-  filter:  saturate(1.1) contrast(1.3);
+  filter:  saturate(1.5) contrast(1.6);
 }
 
 #video-container .video-overlay {
